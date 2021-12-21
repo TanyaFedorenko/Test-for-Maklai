@@ -1,0 +1,27 @@
+.block-form{
+    &__form{
+        max-width: 60%;
+        margin: 0 auto;
+        padding: 50px;
+        border-radius: 25px;
+        background-color: ivory;
+        box-shadow: 1px 5px 10px grey;
+    }
+
+}
+.form-group{
+    margin-bottom: 20px;
+}
+#block-form__result-show{
+    margin: 0 auto;
+    width: 50%;
+    background-color:#fff;
+    min-height: 100px;
+    box-shadow: 1px 5px 10px grey;
+    border-radius: 25px;
+   justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+}
